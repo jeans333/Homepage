@@ -5,7 +5,7 @@
     <title> Jane Chen: portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-      .header-main {
+  .header-main {
         width: 100%;
         height: 60px;
         background-color: #f2eadc;
@@ -13,29 +13,62 @@
         justify-content: space-between;
       }
       
-      .main-nav {
-        width: fit-content;
-        height: 100%;
-      }
+  .header-main-nav {
+    width: fit-content;
+    height: 100%;
+  }
 
+  .header-main-nav ul {
+    margin-left: 30px;
+  }
+
+  .header-main-nav ul li {
+    display: inline;
+    float: left;
+  }
+
+  .header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 60px;
+    color: #283674;
+    display: block;
+    height: 100%;
+  }
+
+  .header-main-nav ul li a:hover {
+    color: #81878c;
+  }
+  
+  .img-container {
+    width: 800px;
+    height: 200px; 
+    display: inline;
+    float: left;
+    margin-top: 10px; 
+    position: relative;
+      }
+    
     </style>
   </head>
   <body>
     <header class="header-main">
-      <	img src="logo.jpg" alt="Jane's logo" width="200">
-      <div class="main-nav">
-        <nav class="main-nav">
-          <a href="#"> Home </a>
-          <a href="Projects.html"> Projects </a>
-          <a href="Illustrations.html"> Illustrations </a>
-          <a href="About.html"> About  </a>
+      <div class="logo">
+      <	img src="logo.jpg" alt="Janes logo" width="200">
+        <nav class="header-main-nav">
+          <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="Projects.html"> Projects </a></li>
+            <li><a href="Illustrations.html"> Illustrations </a></li>
+            <li><a href="About.html"> About  </a></li>
+          </ul>
         </nav>
       </div>
     </header>
     
-   
-      
-  
+  <div class="img-container">
+    <img src="grassbg.jpeg" alt="background">
+    </div>
       
   </body>
 </html>
