@@ -42,19 +42,31 @@
       .resume {
         background-color: #4F5B91;
         color: #FAF9FF;
-        border: 2px solid #4F5B91;
         border-radius: 20px;
         left: 70%;
         font-size: 18px;
         position: absolute;
+        padding: 10px 20px;
       }
       
-      .resume a:link {
-        color: #E9E3D8;
+      .resume a:link,
+      .resume a:visited {
+        color: #FAF9FF;
+        text-decoration: none;
       }
+      
+      .resume:hover {
+        background-color: #FAF9FF;
+      }
+      
       .resume a:hover {
-        color: #E9E3D8;
+        color: #4F5B91;
       }
+      
+    
+.resume a:hover {
+  color: #E9E3D8; /* Set the text color for the link on hover and active states */
+}
   
 
 @keyframes showTopText {
